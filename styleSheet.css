@@ -116,18 +116,24 @@ a {
 
 .metFinLogo{
     position: relative;
-    margin: 5%;
     display:inline-block;
-    width: auto;
+    margin: 5%;
+    width: 35%;
     height: auto;
 }
-.metFinLogo .metFinHover{
-    display: none;
+.metFinLogo .logoImage{
     position: absolute;
-    top: 0;
-    left:0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
 }
-.metFinLogo:hover .metFinHover{
+.metFinLogo .logoHover{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.metFinLogo:hover .logoHover{
     display:inline-block;
 }
 
