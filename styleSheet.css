@@ -53,8 +53,8 @@ a {
 /*-Button-Links-*/
 .projectLink{
     color: black;
-    margin-left: 3%;
-    padding: 1%;
+    margin-left: 1%;
+    padding: 0.5%;
     background-color: lightcoral; 
     text-align: center;
     font-size: 16px;
@@ -66,7 +66,7 @@ a {
 
 .resumeLink{
     color: black;
-    padding: 1%;
+    padding: 0.5%;
     background-color: #DC75DF; 
     text-align: center;
     font-size: 16px;
@@ -78,7 +78,7 @@ a {
 
 .emailMe{
     color: black;
-    padding: 1%;
+    padding: 0.5%;
     text-decoration: none;
     background-color: limegreen; 
     text-align: center;
@@ -90,7 +90,7 @@ a {
 
 .gitHubLink{
     color: black;
-    padding: 1%;
+    padding: 0.5%;
     text-decoration: none;
     background-color: #62B2FF; 
     text-align: center;
