@@ -1,5 +1,5 @@
 document.querySelector('.projectLink').addEventListener('click', (e) => {
-    location.href = 'projects.html';
+    location.href = '../html/projects.html';
 });
 
 document.querySelector('.emailMe').addEventListener('click', (e) => {
@@ -16,6 +16,6 @@ document.querySelector('.gitHubLink').addEventListener('click', (e) => {
 
 document.querySelector('.resumeLink').addEventListener('click', (e) => {
     window.open(
-        'resources/Timothy Cronin Resume.pdf'
+        '../resources/Timothy Cronin Resume.pdf'
     );
 });
