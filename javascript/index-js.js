@@ -16,6 +16,6 @@ document.querySelector('.gitHubLink').addEventListener('click', (e) => {
 
 document.querySelector('.resumeLink').addEventListener('click', (e) => {
     window.open(
-        'resources/Timothy Cronin Resume.pdf'
+        'resources/Timothy_Cronin_Resume.pdf'
     );
 });
