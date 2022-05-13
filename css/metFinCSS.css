@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #FFFFCC;
+    height:100%;
+    width: 100%
+}
+/*---------------------*/
+/*-Meteor-Fingers-Page-*/
+/*---------------------*/
+.metFinPage{
+    background-image: url("../resources/hubblePic.jpg");
+    background-size: stretch;
+    background-repeat:repeat;
+    background-position:center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.metFinTitle{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.metFinVideo{
+    float:left;
+    margin: 5%;
+}
+
+.metFinWords{
+    font: bold 25px Arial;
+    color: whitesmoke;
+    margin-top: 5%;
+    margin-right:10%;
+    margin-left: 10%;
+
+}
+.metFinLinks{
+    font: bold 20px Arial;
+    color: white;
+}
+
+.metFinLinks:hover{
+    color:aqua;
+}
