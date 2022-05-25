@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f779;
+}
+
+a {
+    text-decoration: none;
+}
+
+#chatAppTitle {
+    text-align: center;
+    font: bold 50px Arial;
+    color: #945ca1;
+    background-color: #9ab4d6;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 1%;
+}
+
+.links {
+    font: bold 20px Arial;
+    color: black;
+    display: inline-block;
+    margin: 1%;
+}
+
+.links:hover {
+    color: lightseagreen;
+}
+
+#chatAppDescription{
+    margin: auto;
+    width: 40%;
+    font: 20px Arial;
+}
