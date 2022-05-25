@@ -1,5 +1,5 @@
 document.querySelector('.projectLink').addEventListener('click', (e) => {
-    location.href = 'html/projects.html';
+    location.href = './ProjectsPage/projects.html';
 });
 
 document.querySelector('.emailMe').addEventListener('click', (e) => {

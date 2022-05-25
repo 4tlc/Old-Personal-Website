@@ -1,7 +1,7 @@
 document.querySelector('.metFinLogo').addEventListener('click', (e) => {
-    location.href = 'metFinPage.html'
+    location.href = '../MeteorFingersPage/metFinPage.html'
 });
 
 document.querySelector('.ffLogo').addEventListener('click', (e) => {
-    location.href = 'fishyFeederPage.html'
+    location.href = '../FishyFeederPage/fishyFeederPage.html'
 });

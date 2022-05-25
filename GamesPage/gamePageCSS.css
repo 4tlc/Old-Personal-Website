@@ -1,0 +1,74 @@
+/*--------------*/
+/*-Games-Page-*/
+/*--------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #FFFFCC;
+    height:100%;
+    width: 100%
+}
+.bigTitle{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: lightpink;
+    color: cornflowerblue;
+    padding: 1%;
+    font: bold 50px Arial;
+}
+
+.metFinLogo{
+    position: absolute;
+    display:inline-block;
+    margin: 5%;
+    width: 40%;
+    height: auto;
+}
+.metFinLogo .logoImage{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.metFinLogo .logoHover{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.metFinLogo:hover .logoHover{
+    display:inline-block;
+}
+/* for fishy feeder */
+.ffLogo{
+    position: absolute;
+    display:inline-block;
+    margin-left: 55%;
+    margin-top: 5%;
+    width: 40%;
+    height: auto;
+}
+.ffLogo .ffLogoImg{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.ffLogo .ffLogoImgH{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.ffLogo:hover .ffLogoImgH{
+    display:inline-block;
+}
