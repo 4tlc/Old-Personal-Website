@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background-color: #FFFFCC;
+    background-image: url("../resources/hubblePic.jpg");
     height:100%;
     width: 100%
 }
@@ -17,7 +17,6 @@ body{
 /*-Meteor-Fingers-Page-*/
 /*---------------------*/
 .metFinPage{
-    background-image: url("../resources/hubblePic.jpg");
     background-size: stretch;
     background-repeat:repeat;
     background-position:center;
