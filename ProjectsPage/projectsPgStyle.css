@@ -1,57 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     height: 100%;
     width: 100%;
 }
 
-body{ 
-    background-color: #66ffb2;
+body {
+    background-color: #f7abab;
     height: 100%;
     width: 100%;
 }
-.bigTitle { 
+
+.bigTitle {
     width: 40%;
     margin: auto;
     text-align: center;
-    background-color: lightpink;
-    color: darkcyan;
+    background-color: #cf9dc5;
+    color: #e3cf74;
     padding: 1%;
-    font: bold 50px Arial;
+    font: bold 50px Avantgarde;
 }
 
-.gamesLogo{
+.gamesLogo {
     position: absolute;
-    display:inline-block;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     margin: 5%;
     width: 40%;
-    height: auto;
+    height: 40%;
+    font: bold 80px Avantgarde;
+    background-color: #ceaded;
+    transition: background-color 0.3s ease;
 }
-.gamesLogo .logoImage{
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    transition: opacity 0.3s ease;
-}
-.gamesLogo .logoImageHover{
-    position: absolute;
-    opacity: 0;
-    width: 100%;
-    height: auto;
-    transition: opacity 0.3s ease;
 
+.gamesLogo:hover {
+    background-color: lightblue;
 }
-.gamesLogo:hover .logoImage{
-    opacity: 0;
+
+.chatAppLogo {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 55%;
+    width: 40%;
+    height: 40%;
+    font: bold 80px Avantgarde;
+    background-color: #ceaded;
+    transition: background-color 0.3s ease;
 }
-.gamesLogo:hover .logoImageHover{
-    opacity: 1;
+
+.chatAppLogo:hover {
+    background-color: lightblue;
 }
-/*for chat app */
+
+/*
 .chatAppLogo{
     position: absolute;
     display:inline-block;
@@ -81,3 +91,4 @@ body{
 .chatAppLogo:hover .chatLogoImageHover{
     opacity: 1;
 }
+*/

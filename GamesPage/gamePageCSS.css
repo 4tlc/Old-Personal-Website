@@ -12,18 +12,18 @@ html{
 }
 
 body{
-    background-color: #FFFFCC;
+    background-color: #cf9dc5;
     height:100%;
     width: 100%
 }
 .bigTitle{
-    width: 40%;
+    width: 25%;
     margin: auto;
     text-align: center;
-    background-color: lightpink;
+    background-color: #9a759e;
     color: cornflowerblue;
     padding: 1%;
-    font: bold 50px Arial;
+    font: bold 60px Avantgarde;
 }
 
 .metFinLogo{

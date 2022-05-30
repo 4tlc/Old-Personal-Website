@@ -55,47 +55,48 @@ a {
     color: black;
     margin-left: 1%;
     padding: 0.5%;
-    background-color: lightcoral; 
+    background-color: #fc9797; 
     text-align: center;
     font-size: 16px;
     text-decoration: none;
 }
 .projectLink:hover{
-    background-color: lightpink;
+    background-color: #f7abab;
 }
 
 .resumeLink{
     color: black;
     padding: 0.5%;
-    background-color: #DC75DF; 
+    background-color: #E59BE8; 
     text-align: center;
     font-size: 16px;
     text-decoration: none;
 }
 .resumeLink:hover{
-    background-color: #E59BE8;
+    background-color: #e0b7ed;
 }
 
 .emailMe{
     color: black;
     padding: 0.5%;
     text-decoration: none;
-    background-color: limegreen; 
+    background-color: #73eb93; 
     text-align: center;
     font-size: 16px;
 }
 .emailMe:hover{
-    background-color: lightgreen;
+    background-color: #97f7b1;
 }
 
 .gitHubLink{
     color: black;
     padding: 0.5%;
     text-decoration: none;
-    background-color: #62B2FF; 
+    background-color: #64bded;
     text-align: center;
     font-size: 16px;
 }
 .gitHubLink:hover{
-    background-color: #99CCFF;
+    background-color: #91d5fa; 
+
 }
